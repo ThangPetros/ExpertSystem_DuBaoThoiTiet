@@ -1,0 +1,52 @@
+C:\Users\phand\source\repos\HCG\HCG\bin\Debug\HCG.exe.config
+C:\Users\phand\source\repos\HCG\HCG\bin\Debug\HCG.exe
+C:\Users\phand\source\repos\HCG\HCG\bin\Debug\HCG.pdb
+C:\Users\phand\source\repos\HCG\HCG\obj\Debug\HCG.csprojAssemblyReference.cache
+C:\Users\phand\source\repos\HCG\HCG\obj\Debug\HCG.Form1.resources
+C:\Users\phand\source\repos\HCG\HCG\obj\Debug\HCG.Properties.Resources.resources
+C:\Users\phand\source\repos\HCG\HCG\obj\Debug\HCG.csproj.GenerateResource.cache
+C:\Users\phand\source\repos\HCG\HCG\obj\Debug\HCG.csproj.CoreCompileInputs.cache
+C:\Users\phand\source\repos\HCG\HCG\obj\Debug\HCG.exe
+C:\Users\phand\source\repos\HCG\HCG\obj\Debug\HCG.pdb
+C:\Users\phand\source\repos\HCG\HCG\obj\Debug\HCG.Form2.resources
+C:\Users\phand\source\repos\HCG\HCG\obj\Debug\HCG.Form3.resources
+C:\Users\phand\source\repos\HCG\HCG\obj\Debug\HCG.DangNhap.resources
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\bin\Debug\HCG.exe.config
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\bin\Debug\HCG.exe
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\bin\Debug\HCG.pdb
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\obj\Debug\HCG.csprojAssemblyReference.cache
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\obj\Debug\HCG.DangNhap.resources
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\obj\Debug\HCG.Form1.resources
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\obj\Debug\HCG.Form2.resources
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\obj\Debug\HCG.Form3.resources
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\obj\Debug\HCG.Properties.Resources.resources
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\obj\Debug\HCG.csproj.GenerateResource.cache
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\obj\Debug\HCG.csproj.CoreCompileInputs.cache
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\obj\Debug\HCG.exe
+C:\Users\phand\source\repos\Nhom15_HCG\HCG\obj\Debug\HCG.pdb
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\bin\Debug\HCG.exe.config
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\bin\Debug\HCG.exe
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\bin\Debug\HCG.pdb
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\obj\Debug\HCG.csprojAssemblyReference.cache
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\obj\Debug\HCG.DangNhap.resources
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\obj\Debug\HCG.Form1.resources
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\obj\Debug\HCG.Form2.resources
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\obj\Debug\HCG.Form3.resources
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\obj\Debug\HCG.Properties.Resources.resources
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\obj\Debug\HCG.csproj.GenerateResource.cache
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\obj\Debug\HCG.csproj.CoreCompileInputs.cache
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\obj\Debug\HCG.exe
+C:\Users\phamt\Desktop\Nhom15_HCG\HCG\obj\Debug\HCG.pdb
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\bin\Debug\HCG.exe.config
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\bin\Debug\HCG.exe
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\bin\Debug\HCG.pdb
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\obj\Debug\HCG.csproj.AssemblyReference.cache
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\obj\Debug\HCG.DangNhap.resources
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\obj\Debug\HCG.Form1.resources
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\obj\Debug\HCG.Form2.resources
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\obj\Debug\HCG.Form3.resources
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\obj\Debug\HCG.Properties.Resources.resources
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\obj\Debug\HCG.csproj.GenerateResource.cache
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\obj\Debug\HCG.csproj.CoreCompileInputs.cache
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\obj\Debug\HCG.exe
+D:\03.Study\Term7\Parallel Computing\BTL\Nhom15_HCG\HCG\obj\Debug\HCG.pdb

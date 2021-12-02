@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HCG1" Class="DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=QUY;Initial Catalog=HCG1;Integrated Security=True" SettingsObjectName="HCG.Properties.Settings" SettingsPropertyName="HCG1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ApSuat" Member="ApSuats">
+    <Type Name="ApSuat">
+      <Column Name="MaA" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenA" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Association Name="ApSuat_DataContent" Member="DataContents" ThisKey="MaA" OtherKey="IdA" Type="DataContent" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VungKhiHau" Member="VungKhiHaus">
+    <Type Name="VungKhiHau">
+      <Column Name="MaV" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenV" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Association Name="VungKhiHau_DataContent" Member="DataContents" ThisKey="MaV" OtherKey="IdV" Type="DataContent" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DataContent" Member="DataContents">
+    <Type Name="DataContent">
+      <Column Name="STT" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IdV" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="IdD" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="IdN" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="IdG" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="IdA" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="IdT" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Association Name="ApSuat_DataContent" Member="ApSuat" ThisKey="IdA" OtherKey="MaA" Type="ApSuat" IsForeignKey="true" />
+      <Association Name="VungKhiHau_DataContent" Member="VungKhiHau" ThisKey="IdV" OtherKey="MaV" Type="VungKhiHau" IsForeignKey="true" />
+      <Association Name="DoAm_DataContent" Member="DoAm" ThisKey="IdD" OtherKey="MaD" Type="DoAm" IsForeignKey="true" />
+      <Association Name="Gio_DataContent" Member="Gio" ThisKey="IdG" OtherKey="MaG" Type="Gio" IsForeignKey="true" />
+      <Association Name="NhietDo_DataContent" Member="NhietDo" ThisKey="IdN" OtherKey="MaN" Type="NhietDo" IsForeignKey="true" />
+      <Association Name="ThoiTiet_DataContent" Member="ThoiTiet" ThisKey="IdT" OtherKey="MaT" Type="ThoiTiet" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DoAm" Member="DoAms">
+    <Type Name="DoAm">
+      <Column Name="MaD" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenD" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Association Name="DoAm_DataContent" Member="DataContents" ThisKey="MaD" OtherKey="IdD" Type="DataContent" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Gio" Member="Gios">
+    <Type Name="Gio">
+      <Column Name="MaG" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenG" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Association Name="Gio_DataContent" Member="DataContents" ThisKey="MaG" OtherKey="IdG" Type="DataContent" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LogIn" Member="LogIns">
+    <Type Name="LogIn">
+      <Column Name="TenDN" Type="System.String" DbType="VarChar(36) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Mk" Type="System.String" DbType="VarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="Role" Type="System.String" DbType="VarChar(16) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NhietDo" Member="NhietDos">
+    <Type Name="NhietDo">
+      <Column Name="MaN" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenN" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Association Name="NhietDo_DataContent" Member="DataContents" ThisKey="MaN" OtherKey="IdN" Type="DataContent" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rules" Member="Rules">
+    <Type Name="Rule">
+      <Column Name="Id" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GT" Type="System.String" DbType="NVarChar(36) NOT NULL" CanBeNull="false" />
+      <Column Name="KL" Type="System.String" DbType="NVarChar(36) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TAPLUAT" Member="TAPLUATs">
+    <Type Name="TAPLUAT">
+      <Column Name="dieuKien" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ketLuan" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ThoiTiet" Member="ThoiTiets">
+    <Type Name="ThoiTiet">
+      <Column Name="MaT" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenT" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Association Name="ThoiTiet_DataContent" Member="DataContents" ThisKey="MaT" OtherKey="IdT" Type="DataContent" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VUNG1" Member="VUNG1s">
+    <Type Name="VUNG1">
+      <Column Name="doAm" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="nhietDo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="gio" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="apSuat" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="thoiTiet" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VUNG2" Member="VUNG2s">
+    <Type Name="VUNG2">
+      <Column Name="doAm" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="nhietDo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="gio" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="apSuat" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="thoiTiet" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VUNG3" Member="VUNG3s">
+    <Type Name="VUNG3">
+      <Column Name="doAm" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="nhietDo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="gio" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="apSuat" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="thoiTiet" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VUNG4" Member="VUNG4s">
+    <Type Name="VUNG4">
+      <Column Name="doAm" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="nhietDo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="gio" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="apSuat" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="thoiTiet" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VUNG5" Member="VUNG5s">
+    <Type Name="VUNG5">
+      <Column Name="doAm" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="nhietDo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="gio" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="apSuat" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="thoiTiet" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
